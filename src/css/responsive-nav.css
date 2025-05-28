@@ -1,0 +1,95 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-nav {
+    background-color: var(--color-primario);
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .div-logo {
+    gap: 10px;
+  }
+  .div-icon-extra {
+    display: none;
+  }
+  .div-buscador {
+    width: 50%;
+  }
+  .icon-cc-medium {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .div-seccion-extra {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .btn-categoria, .btn-lupa-large, .div-nav-seccion, .div-paismoneda, .a-nav-seccion, .a-nav-ubicacion {
+    display: flex;
+  }
+  .section-nav {
+    display: grid;
+    grid-template-columns: 1.2fr .7fr 1fr;
+    gap: 15px;
+    padding: 8px 16px;
+  }
+  .icon-usuario-medium, .btn-lupa-extra, .nav-bottom {
+    display: none;
+  }
+  .div-paismoneda {
+    gap: 5px;
+  }
+  .div-buscador {
+    width: 100%;
+  }
+  .div-buscador > input {
+    background-color: #f9f9f9;
+    font-size: 0.8rem;
+    border-top-right-radius: 0;
+    border: 1px solid #00A3E0;
+    border-left: none;
+  }
+  .a-nav-seccion, .a-nav-ubicacion {
+    align-items: center;
+    gap: 8px;
+  }
+  .div-logo, .div-derecha-large {
+    gap: 10px;
+  }
+  .div-derecha-large {
+    justify-content: space-between;
+  }
+  .div-logo {
+    justify-content: space-between;
+  }
+  .recomendaciones-nav {
+    background-color: #428fdf;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    font-size: var(--font-size-md);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-nav {
+    grid-template-columns: 1.1fr 1fr 1fr;
+  }
+  .div-logo {
+    padding-right: 10px;
+    gap: 10px;
+  }
+  .div-derecha-large {
+    padding-left: 20px;
+    gap: 20px;
+  }
+}

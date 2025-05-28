@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon" type="img/png" href="https://www.farmatodo.com.ve/assets/icons/android-icon-192x192.png">
+
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/nav.css">
+    <link rel="stylesheet" href="./src/css/responsive-nav.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/responsive-header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/responsive-main.css">
+  </head>
+  <body>
+    <nav class="nav-top">
+      <section class="section-nav">
+        <!-- Logo farmatodo LISTO -->
+        <div class="div-logo">
+          <div class="icon-usuario-medium">
+            <a href="#">
+              <img width="35px" src="https://www.farmatodo.com.ve/assets/svg/icon-user-blue.svg" alt="icon usuario">
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img width="150px" src="https://www.farmatodo.com.ve/assets/svg/logo-farmatodo-blue.svg" alt="Logo Farmatodo">
+            </a>
+          </div>
+          <div class="div-icon-extra">
+            <a href="#">
+              <img width="20px" src="https://www.farmatodo.com.ve/assets/svg/white-bell.png" alt="icon campana">
+            </a>
+            <a href="#">
+              <img width="30px" src="https://www.farmatodo.com.ve/assets/svg/carrito.svg" alt="icon carrito">
+            </a>
+          </div>
+          <!-- Pais y cambio de moneda -->
+          <div class="div-paismoneda">
+            <img width="25px" src="https://www.farmatodo.com.ve/assets/svg/ven-flag.svg" alt="bandera pais">
+            <span>Venezuela</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-down-fill text-[#418fe1]" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </div>
+          <div class="div-paismoneda">
+            <img width="24px" src="https://www.farmatodo.com.ve/assets/svg/sdf-icon-coin.svg" alt="icon moneda">
+            <div class="div-ref">
+              <span>Ref. 1= Bs 95.02</span>
+              <div>
+                <span>Bs.</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-down-fill text-[#418fe1]" viewBox="0 0 16 16">
+                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Buscador -->
+        <div class="div-buscador">
+          <button class="btn-lupa-extra">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search text-[#00A3E0]" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+            </svg>
+          </button>
+          <button class="btn-categoria">
+            <span>Categorias</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 14 14">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </button>
+          <input type="text" placeholder="Buscar aqui tu producto" />
+          <button class="btn-lupa-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+            </svg>
+          </button>
+        </div>
+        <!-- Inicia seccion, ubicacion, campana y carrito -->
+        <div class="div-derecha-large">
+          <!-- Inicia seccion -->
+          <a class="a-nav-seccion" href="#">
+            <img width="15px" src="https://www.farmatodo.com.ve/assets/svg/profile.svg" alt="icon usuario">
+            <span>Inicia seccion</span>
+          </a>
+          <!-- Ubicacion -->
+          <a class="a-nav-ubicacion" href="#">
+            <img src="https://www.farmatodo.com.ve/assets/svg/marker.svg" alt="icon ubicacion">
+            <span>San Cristobal</span>
+          </a>
+          <!-- ICON CAMPANA Y CARRITO PC -->
+          <div class="icon-cc-medium">
+            <a href="#">
+              <img width="20px" src="https://www.farmatodo.com.ve/assets/svg/white-bell.png" alt="icon campana">
+            </a>
+            <a class="btn-carrito-medium" href="#">
+              <img width="20px" src="https://www.farmatodo.com.ve/assets/svg/carrito.svg" alt="icon carrito">
+            </a>
+          </div>
+        </div>
+        <!-- Inicio de seccion extra -->
+        <div class="div-seccion-extra">
+          <a class="a-seccion-extra" href="#">
+            <span>Inicia sesion o registrare</span>
+            <img  src="https://www.farmatodo.com.ve/assets/svg/sdf-icon-next-btn-blue.svg" alt="arrow right white">
+          </a>
+          <a class="btn-bss-extra" href="#">
+            <span>Bss</span>
+            <img src="https://www.farmatodo.com.ve/assets/svg/arrow-right-white.svg" alt="arrow right white">
+          </a>
+        </div>
+      </section>
+      <section class="recomendaciones-nav">
+        <div>
+          <span class="text-[0.8rem] text-[#fff]">Salud y Medicamentos</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill text-[#fff]" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="text-[0.8rem] text-[#fff]">Belleza</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill text-[#fff]" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="text-[0.8rem] text-[#fff]">Cuidado Personal</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill text-[#fff]" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="text-[0.8rem] text-[#fff]">Bebe</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill text-[#fff]" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="text-[0.8rem] text-[#fff]">Alimentos y Bebidas</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill text-[#fff]" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="text-[0.8rem] text-[#fff]">Hogar Mascotas y otros</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill text-[#fff]" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+        <div>
+          <img src="https://www.farmatodo.com.ve/assets/svg/coupon.svg" alt="icon cupon">
+          <span class="text-[0.8rem] text-[#fff]">Ingresar Cupon</span>
+        </div>
+      </section>
+      <section class="nav-bottom">
+        <div>
+          <img width="25" src="https://www.farmatodo.com.ve/assets/svg/new-icon-home-blue-60w.svg" alt="icon-home">
+          <p>Home</p>
+        </div>
+        <div>
+          <img src="https://www.farmatodo.com.ve/assets/svg/new-menu-categories-icon.svg" alt="icon-categorias">
+          <p>Categorias</p>
+        </div>
+        <div>
+          <img src="https://www.farmatodo.com.ve/assets/svg/new-icon-coupon.svg" alt="icon-cupon">
+          <p>Cupon</p>
+        </div>
+        <div>
+          <img src="https://www.farmatodo.com.ve/assets/svg/new-menu-chat-icon.svg" alt="icon-soporte">
+          <p>Soporte</p>
+        </div>
+      </section>
+    </nav>
+    <main>
+      <header>
+        <!-- Banners -->
+        <section id="banner" class="section-banner no-scrollbar">
+          <img width="100%" class="img-banner" src="https://lh3.googleusercontent.com/YXy3RLB_PlqfJ_bsHDnuw16FQrI4onkjIEerOIV5qWtZ12cyzzngB56dYt5lFJZ9BJQSUll6FgvS6XhaakDyrGB7LN0eTf4Mke8u-PaVO8n_wjIi=s1350-rw" alt="Banner 1.2">
+        </section>
+        <!-- Inicia seccion -->
+        <section class="section-header-lg">
+          <div class="div-header-seccion">
+            <div class="div-header-seccion-title">
+              <h3>INICIA SECCION</h3>
+              <p>Ingresa tus datos</p>
+            </div>
+            <div class="div-header-iniciaseccion">
+              <div class="div-iniciaseccion">
+                <img width="15px " src="https://www.farmatodo.com.ve/assets/svg/ven-flag.svg" alt="bandera pais">
+                <span>+58</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-down-fill text-[#c1c1c1]" viewBox="0 0 16 16">
+                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"></path>
+                </svg>
+              </div>
+              <div class="div-iniciaseccion">
+                <select name="codigo" id="codigo">
+                  <option value="codigo">0212</option>
+                  <option value="codigo">0416</option>
+                  <option value="codigo">0414</option>
+                  <option value="codigo">0424</option>
+                  <option value="codigo">0426</option>
+                </select>
+              </div>
+              <input type="number" placeholder="Ingresa tu número celular">
+              <button disableds>Iniciar seccion</button>
+            </div>
+            <div class="div-registrarse-recuperar">
+              <a href="#">¿Olvidaste la contraseña?</a>
+              <div>
+                <a href="#">¿No tienes cuenta?</a>
+                <a class="a-registrate" href="#">Regístrate aquí</a>
+              </div>
+            </div>
+          </div>
+          <div class="div-header-banner">
+            <img width="100%" height="100%" src="https://lh3.googleusercontent.com/6aFXvbX6y1XdTn45aRJSuvOr_wgogBe8I3L4NrYuT3aeLrKlFjpoaC5rdHiHYXFbaJbQDwJrDzDvnLVc_q4W1x3Epu_i038lrVZMwhpARPgw1DJs" alt="banner">
+          </div>
+        </section>
+      </header>
+      <!-- Atajos -->
+      <section class="section-atajos">
+        <button class="btn-flechas">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+          </svg>
+        </button>
+        <div id="atajo" class="div-atajos no-scrollbar">
+          <div>
+            <img width="80" height="80" src="https://lh3.googleusercontent.com/6eW4qR-HDPb9G5f0PDYJnOtNkagvESBEaQRjc_H1s-m6s3Gxn-LuHAFE_1qWp64ZQvj3Y3RjPv8o4_2jQmcAVh2WpwBOCySF7yvWowi-kiFFVybC=s250" alt="Atajo 1">
+            <p>Oferta de la semana</p>
+          </div>
+        </div>
+        <button class="btn-flechas">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+          </svg>
+        </button>
+      </section>
+      <!-- Te puede interesar -->
+      <section class="section-teinteresa">
+        <h3><span>Hola ,</span> te puede interesar...</h3>
+        <div class="div-teinteresa">
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left text-[#b0b0b0]" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+            </svg>
+          </button>
+          <div id="tePuedeInteresar" class="div-teinteresa-cards no-scrollbar">
+            <div class="card-teinteresa">
+              <img width="100%" class="producto-teinteresa" src="https://lh3.googleusercontent.com/d2oVPA4vciM8lQSFJacTwg9DT7wWwHzWwQmbFhB8LW4TKkeiceWi-KmPgl8e53Ncsw6rbTBqMbKIqkxuqj0YcKYQrvJVV6eo9aApa2BjpB0OH0bl=s650" alt="Interesa 1">
+              <a href="#">
+                <img src="https://www.farmatodo.com.ve/assets/svg/arrow-right-white.svg" alt=">">
+              </a>
+              <div class="descuento-teinteresa">
+                <img width="100%" src="https://www.farmatodo.com.ve/assets/svg/icon-discount-yellow.svg" alt="icon discount">
+                <span>15%</span>
+              </div>
+              <div class="div-teinteresa-texto">
+                <p>Hasta 15% Dcto. en Dulces y snacks</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right text-[#b0b0b0]" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <!-- Nuestro recomendados -->
+      <section class="section-recomendados">
+        <div class="div-recomendados-title">
+          <h3>Nuestro recomendados</h3>
+          <a href="#">
+            <span>Ver mas</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-right text-[#b0b0b0]" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </a>
+        </div>
+        <div class="div-teinteresa">
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+            </svg>
+          </button>
+          <div id="recomendacion" class="div-teinteresa-cards no-scrollbar">
+            <div class="card-teinteresa">
+              <img width="100%" class="producto-teinteresa" src="https://lh3.googleusercontent.com/SMdjhdDpqevBFb1-HBosVPJJB3PGy68FmbLb57-dJudEtJK0l54eLi-TvLTyTl3E5KxBDRSCPvB58inixo5LiAEXPaCCMQ2UOxTSa145i9k9glAC=s650" alt="Recomendado 1">
+              <a href="#">
+                <img src="https://www.farmatodo.com.ve/assets/svg/arrow-right-white.svg" alt=">">
+              </a>
+              <div class="div-teinteresa-texto">
+                <p>Protección femenina</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <!-- Alimentos y bebidas -->
+      <section class="section-alimentosbebidas">
+        <div class="div-alimentosbebidas-title">
+          <h3>Alimentos y Bebidas</h3>
+        </div>
+        <div class="div-teinteresa">
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+            </svg>
+          </button>
+          <div id="alimentosBebidas" class="div-alimentosbebidas-cards no-scrollbar">
+            <div class="card-productos-2">
+              <div class="card-productos-top">
+                <img class="img-producto" src="https://lh3.googleusercontent.com/Sjidqlsl82LiZq4PmIw8lN_lA8kMG_xtMhZAqm54e_fTX8q10jMBdxG6S3HeL9GyVjMTPS7Ubx493wOnijWTFTN0A7jCHQXXgx-nED1KDX4mL5SRiQ=s650" alt="Producto 1">
+                <a href="#">
+                  <img src="./src/img/sdf-icon-plus.svg" alt="icon plus">
+                </a>
+                <div class="descuento-teinteresa">
+                  <img width="100%" src="https://www.farmatodo.com.ve/assets/svg/icon-discount-yellow.svg" alt="icon discount">
+                  <span>22%</span>
+                </div>
+                <div class="div-aprovecha">
+                  <p>¡Aprovecha!</p>
+                </div>
+                <img width="18px" class="corazon-producto" src="./src/img/heart.svg" alt="heart">
+              </div>
+              <div class="card-producto-bottom">
+                <p class="card-producto-titulo">Refresco Coca-cola Sabor Original 2 Lt</p>
+                <p class="card-producto-precio"><span class="precio-ahora">Bs.125.18</span><span class="precio-antes"><del>Bs.160.49</del></span></p>
+                <div class="div-delivery">
+                  <p>Mililitros a Bs.0.06</p>
+                  <div>
+                    <img width="20px" src="./src/img/moto.svg" alt="moto">
+                    <p>35 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <!-- Salud y medicamentos -->
+      <section class="section-saludmedicamento">
+        <div class="div-saludmedicamento-title">
+          <h3>Salud y Medicamentos</h3>
+        </div>
+        <div class="div-teinteresa">
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+            </svg>
+          </button>
+          <div id="saludMedicamentos" class="div-alimentosbebidas-cards no-scrollbar">
+            <div class="card-productos-2">
+              <div class="card-productos-top">
+                <img class="img-producto" src="https://lh3.googleusercontent.com/Ijg8jUYonplUNWycE6N4JekE2Opvlm4f-G8KbKlgUt4lUzbDxRUbcxFQM---lhG_ypLTfagSxaJiN7ebw5nBQfo0vPZZc5c36yJEASikYq0HVPHJAw=s650" alt="Productos 11">
+                <a href="#">
+                  <img src="./src/img/sdf-icon-plus.svg" alt="icon plus">
+                </a>
+                <div class="descuento-teinteresa">
+                  <img width="100%" src="https://www.farmatodo.com.ve/assets/svg/icon-discount-yellow.svg" alt="icon discount">
+                  <span>15%</span>
+                </div>
+                <div class="div-aprovecha">
+                  <p>Solo DELIVERY - 15% Dcto. 1era Compra</p>
+                </div>
+                <img width="18px" class="corazon-producto" src="./src/img/heart.svg" alt="heart">
+              </div>
+              <div class="card-producto-bottom">
+                <p class="card-producto-titulo">Citrato De Magnesio 500 Mg Natural Systems Blister X 10 Cápsulas</p>
+                <p class="card-producto-precio"><span class="precio-ahora">Bs.171.91</span><span class="precio-antes"><del>Bs.202.25</del></span></p>
+                <div class="div-delivery">
+                  <p>Gramos a Bs.17.19</p>
+                  <div>
+                    <img width="20px" src="./src/img/moto.svg" alt="moto">
+                    <p>35 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-flechas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <!-- Informacion -->
+      <section class="section-informacion">
+      <div class="div-informacion">
+        <h4>Farmacia online: Delivery</h4>
+        <p>
+          ¡Hola, bienvenido a Farmatodo! si aún no conoces nuestro portafolio, te contamos que tenemos todo lo que necesitas en un solo lugar:
+        </p>
+        <p>
+          Encontrarás desde productos de <strong>farmacia</strong>, ya que <strong>somos especialistas en medicamentos y todos los productos relacionados con el cuidado de salud</strong>, hasta todos productos de despensa como tortillas, gaseosas y mucho más. Es decir, que puedes adquirir todo en un solo lugar y a un clic de distancia.
+        </p>
+      </div>
+      <div>
+        <h4>Cómo explorar nuestra página y categorías?</h4>
+        <p>
+          Lo primero que debes hacer es familiarizarte con ella. En la parte superior hallarás diversas pestañas, las cuales se componen por salud y medicamentos, belleza,cuidado del bebé, cuidado personal, alimentos y bebidas, y todo lo relacionado con el hogar, mascotas, diversión, entre otros. De allí, se desplegará un universo de opciones para guiarte y llevarte a los productos que estás buscando. Además, podrás encontrar muchos más servicios destacados como nuestro <strong>delivery los 7 días de la semana</strong>, el folleto de súper precios para todas las categorías, <strong>envíaloYa, programa cuidamos tu salud, Asesoría farmacéutica en línea</strong> y muchos más.
+        </p>
+      </div>
+      </section>
+    </main>
+    <!-- Soporte -->
+    <div class="soporte">
+      <img src="./src/img/icono-soporte.svg" alt="soporte">
+    </div>
+    <footer>
+
+    </footer>
+  </body>
+  <script src="./src/js/main.js"></script>
+</html>

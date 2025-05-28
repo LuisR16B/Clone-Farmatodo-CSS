@@ -1,0 +1,86 @@
+.section-header-lg {
+  display: none;
+}
+
+.section-banner {
+  display: flex;
+  overflow-x: auto;
+}
+
+.div-header-seccion {
+  background-color: var(--color-primario);
+  padding: 12px;
+  border-radius: var(--px-border-radius-primario);
+  border: 1px solid var(--color-border-primario);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.div-header-banner {
+  border-radius: var(--px-border-radius-primario);
+  overflow: hidden;
+}
+
+.div-header-seccion-title{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.div-header-seccion-title h3{
+  font-weight: bold;
+  color: #383838;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.div-header-seccion-title p {
+  font-size: .7rem;
+  color: #737373;
+}
+
+.div-header-iniciaseccion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.div-iniciaseccion {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-md);
+  padding: 10px 4px;
+  border-radius: var(--px-border-radius-primario);
+  border: 1px solid var(--color-border-primario);
+}
+
+.div-header-iniciaseccion > input {
+  border: 1px solid var(--color-border-primario);
+  border-radius: var(--px-border-radius-primario);
+  padding: 10px 4px;
+  width: 100%;
+}
+
+.div-header-iniciaseccion > button {
+  background-color: #f0f0f0;
+  border: 1px solid var(--color-border-primario);
+  border-radius: var(--px-border-radius-primario);
+  padding: 10px 4px;
+  color: gray;
+  opacity: .5;
+  cursor: not-allowed;
+  flex-shrink: 0;
+}
+
+.div-registrarse-recuperar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+}
+
+.a-registrate {
+  color: var(--color-secundario);
+  font-weight: bold;
+}

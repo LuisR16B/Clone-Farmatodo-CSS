@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+  --color-primario: #fff;
+  --color-secundario: #000;
+  --color-terciario: #00A3E0;
+  --bg-primario: #f0f0f0;
+  --font-size-md: 0.7rem;
+  --color-border-primario: #d1d5db;
+  --px-border-radius-primario: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: var(--color-primario);
+}
+
+select {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  background-color: var(--color-primario);
+  border: 1px solid transparent;
+  border-radius: 1px;
+  font-size: var(--font-size-md);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: none;
+}
+
+
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+
+a:active {
+  color: none;
+}
+
+input[type="number"] {
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+.soporte {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: var(--bg-primario);
+  }
+  .soporte {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}
