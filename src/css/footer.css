@@ -2,17 +2,46 @@ footer {
   display: flex;
   background-color: #192e5b;
   margin-bottom: 50px;
-  padding: 10px;
+  padding: 20px;
   flex-direction: column;
+  gap: 20px;
+}
+
+.footer-logo-caracteristicas {
+  color: var(--color-primario);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-footer-img {
+  width: 200px;
+}
+
+.div-categorias {
+  font-size: .6rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
   gap: 10px;
 }
 
+.div-categorias h5 {
+  font-size: .9rem;
+}
+
+.div-categorias ul {
+  color: #b3b3b3;
+  padding-left: 12px;
+}
+
 .metodos-pago {
-  display: flex;
+  display: none;
   color: var(--color-primario);
   font-size: .6rem;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -44,10 +73,11 @@ footer {
 
 .section-copy {
   display: flex;
-  font-size: .7rem;
+  font-size: var(--font-size-md);
   color: #b3b3b3;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 .div-copy {

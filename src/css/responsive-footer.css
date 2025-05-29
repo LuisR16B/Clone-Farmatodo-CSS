@@ -1,0 +1,75 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .div-categorias {
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  footer {
+    padding: 30px;
+  }
+  .footer-logo-caracteristicas {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .div-redes{
+    gap: 35px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  footer {
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .footer-logo-caracteristicas {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .div-categorias {
+    grid-template-columns: repeat(3,1fr);
+    font-size: .8rem;
+  }
+  .div-categorias h5 {
+    font-size: 1.1rem;
+  }
+  .metodos-pago {
+    display: flex;
+  }
+  .metodos-pago-ms {
+    display: none;
+  }
+  .logo-footer-img {
+    width: 250px;
+  }
+  .card-metodos {
+    gap: 10px;
+  }
+  .visa {
+    width: 60px;
+  }
+  .masterCard {
+    width: 45px;
+  }
+  .americaExpress {
+    width: 75px;
+  }
+  .dinersClub {
+    width: 50px;
+  }
+  .puntoVenta {
+    width: 30px;
+  }
+  .contraEntrega {
+    width: 45px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
