@@ -164,7 +164,7 @@ function generarInteresar() {
           <img src="https://www.farmatodo.com.ve/assets/svg/arrow-right-white.svg" alt=">">
         </a>
         <div class="descuento-teinteresa">
-          <img width="100%" src="https://www.farmatodo.com.ve/assets/svg/icon-discount-yellow.svg" alt="icon discount">
+          <img width="100%" src="./src/img/icon-discount-yellow.svg" alt="icon discount">
           <span>${informacion.descuento}%</span>
         </div>
         <div class="div-teinteresa-texto">
@@ -203,7 +203,7 @@ function generarAlimentosyBebidas() {
             <img src="./src/img/sdf-icon-plus.svg" alt="icon plus">
           </a>
           <div class="descuento-teinteresa">
-            <img width="100%" src="https://www.farmatodo.com.ve/assets/svg/icon-discount-yellow.svg" alt="icon discount">
+            <img width="100%" src="./src/img/icon-discount-yellow.svg" alt="icon discount">
             <span>${informacion.descuento}%</span>
           </div>
           <div class="div-aprovecha">
@@ -238,7 +238,7 @@ function generarSaludyMedicamentos() {
             <img src="./src/img/sdf-icon-plus.svg" alt="icon plus">
           </a>
           <div class="descuento-teinteresa">
-            <img width="100%" src="https://www.farmatodo.com.ve/assets/svg/icon-discount-yellow.svg" alt="icon discount">
+            <img width="100%" src="./src/img/icon-discount-yellow.svg" alt="icon discount">
             <span>${informacion.descuento}%</span>
           </div>
           <div class="div-aprovecha">
